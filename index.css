@@ -173,10 +173,10 @@ a:hover{
 
 
 
-@media only screen and (min-width:1440px){
+@media screen and (min-width:768px){
     .hamburger-container  {
         display: flex;
-        gap: 20px;
+        gap: 15px;
        
     }
     .hamburger-container a{
@@ -189,7 +189,7 @@ a:hover{
         visibility: hidden;
     }
     .container{
-        padding: 20px 150px;
+        padding: 20px 100px;
     }
     .mobile{
         display: none;
@@ -200,7 +200,7 @@ a:hover{
         padding-top: 70px;
     }
     .image{
-        width: 46%;
+        width: 40%;
         position: absolute;
         top: 30px;
         left: 800px;
@@ -211,13 +211,13 @@ a:hover{
         width: 100%;
     }
     .section .img-container{
-        width: 55%;
+        width: 57%;
     }
     .section .text-container{
-        width: 45%;
+        width: 43%;
         text-align: left;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
         padding-top: 200px;
     }
     .text-container p{
@@ -231,9 +231,12 @@ a:hover{
     }
     .about-container2{
         display: block;
-         padding: 70px 150px;
+         padding: 70px 100px;
          background: hsl(220,16%,96%);
          line-height: 2.0;
+    }
+    .about-container2 p{
+        font-size: 14px;
     }
     .service{
         display: flex;
@@ -252,7 +255,7 @@ a:hover{
     }
     .article-container2{
         display: block;
-        padding: 70px 150px;
+        padding: 70px 100px;
     }
     .article{
         display: flex;
